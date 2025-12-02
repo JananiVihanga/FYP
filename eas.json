@@ -1,0 +1,52 @@
+{
+  "cli": {
+    "version": ">= 7.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk" 
+      },
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyAAnz5SWs8XdoTxkb1r0iMKzcavDyng668",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "safe-connect-cbed1.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DATABASE_URL": "https://safe-connect-cbed1-default-rtdb.firebaseio.com/",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "safe-connect-cbed1",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "safe-connect-cbed1.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "686787724444",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:686787724444:web:89cb568c4e385143249959",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCeG9sIjmw2hp1PwXjhF3tSaHMtCnzHGWU"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyAAnz5SWs8XdoTxkb1r0iMKzcavDyng668",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "safe-connect-cbed1.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DATABASE_URL": "https://safe-connect-cbed1-default-rtdb.firebaseio.com/",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "safe-connect-cbed1",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "safe-connect-cbed1.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "686787724444",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:686787724444:web:89cb568c4e385143249959",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCeG9sIjmw2hp1PwXjhF3tSaHMtCnzHGWU"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyAAnz5SWs8XdoTxkb1r0iMKzcavDyng668",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "safe-connect-cbed1.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DATABASE_URL": "https://safe-connect-cbed1-default-rtdb.firebaseio.com/",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "safe-connect-cbed1",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "safe-connect-cbed1.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "686787724444",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:686787724444:web:89cb568c4e385143249959",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCeG9sIjmw2hp1PwXjhF3tSaHMtCnzHGWU"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
